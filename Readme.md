@@ -1,14 +1,6 @@
-**English:**
-*For a more advanced and comprehensive security tool with additional features such as encryption, system monitoring, and enhanced network scanning, please check out the [Advanced Security Suite](https://github.com/Kashim0-afk/Advanced-Security-Suite) repository.*
+> **Archived / Archiviato.** This repository is no longer maintained: its features live on in [Advanced Security Suite](https://github.com/Kashim0-afk/Advanced-Security-Suite). Questo repository non è più mantenuto: le sue funzioni sono confluite in [Advanced Security Suite](https://github.com/Kashim0-afk/Advanced-Security-Suite).
 
-**Italiano:**
-*Per uno strumento di sicurezza più avanzato e completo, con funzionalità aggiuntive come crittografia, monitoraggio del sistema e scansione di rete avanzata, consulta il repository [Advanced Security Suite](https://github.com/Kashim0-afk/Advanced-Security-Suite).*
-
-
-
-
-
-
+> **Authorized use only / Solo uso autorizzato.** Scan and test only systems you own or have written permission to test. Scansiona e testa solo sistemi tuoi o per cui hai un'autorizzazione scritta.
 
 # Project: Security Tool
 
@@ -49,25 +41,25 @@
 ## Installation (English)
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Kashim0-afk/security_tool
-   cd security_tool
+   git clone https://github.com/Kashim0-afk/Security-Tool-Suite.git
+   cd Security-Tool-Suite
    ```
 2. Ensure Python 3 is installed.
 3. Install the required modules:
    ```bash
-   pip install -r requirements.txt
+   pip install requests psutil paramiko
    ```
 
 ## Installazione (Italiano)
 1. Clona il repository:
    ```bash
-   git clone https://github.com/Kashim0-afk/security_tool
-   cd security_tool
+   git clone https://github.com/Kashim0-afk/Security-Tool-Suite.git
+   cd Security-Tool-Suite
    ```
 2. Assicurati di avere Python 3 installato.
 3. Installa i moduli richiesti:
    ```bash
-   pip install -r requirements.txt
+   pip install requests psutil paramiko
    ```
 
 ---
@@ -75,7 +67,7 @@
 ## Usage (English)
 1. Start the program:
    ```bash
-   python3 security_tool.py
+   python "security_tool.py"
    ```
 2. Choose an option from the CLI menu:
    - Password Management
@@ -85,7 +77,7 @@
 ## Utilizzo (Italiano)
 1. Avvia il programma:
    ```bash
-   python3 security_tool.py
+   python "security_tool.py"
    ```
 2. Scegli un'opzione dal menu CLI:
    - Gestione delle Password
